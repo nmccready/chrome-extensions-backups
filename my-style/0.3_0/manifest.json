@@ -1,0 +1,14 @@
+{
+   "content_scripts": [ {
+      "css": [ "my-style.css" ],
+      "js": [ "my-style.js" ],
+      "matches": [ "http://*/*", "https://*/*" ],
+      "run_at": "document_start"
+   } ],
+   "description": "Insert custom CSS into pages, immediately see the visual results, and have that CSS persist for future visits.",
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDDe57JvoGt1RTEdYcGFr497pDjAlTXjhfSx6TKRwYShbxTEo8MHKI/uExlj5q0E/QXbx5mu0k8OCL6BC9vXMhjZCxD+17MrlHn5TDQB2mk78qq8ha8q5Sr9X3ZI1A8cOvLd79DJ/gzfXmsvD9wfrucUR27xImZcSUk8E9+1oe4NQIDAQAB",
+   "manifest_version": 2,
+   "name": "My Style",
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "0.3"
+}
