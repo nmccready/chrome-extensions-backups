@@ -1,0 +1,39 @@
+/*Begin Remove Side Pagelet Sutff*/
+#pagelet_trending_tags_and_topics{
+  display:none;
+}
+#pagelet_games_rhc{
+  display:none;
+}
+/*End Remove Side Pagelet Sutff*/
+
+/*Begin Remove Left App*/
+#appsNav{
+  display:none;
+}
+
+#interestsNav{
+  display:none;
+}
+
+#developerNav{
+  display:none;
+}
+/*End Remove Left App*/
+
+/*Begin Remove Chat */
+.fbChatSidebar{
+  display:none;
+}
+
+.fbNubFlyout.uiToggleFlyout{
+  display:none;
+}
+‪#‎fbDockChatBuddylistNub‬{
+  display:none;
+}
+
+.fbChatSidebar.fixed_always._5pr2{
+  display:none;
+}
+/*End Remove Chat */
