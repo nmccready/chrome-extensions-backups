@@ -163,8 +163,8 @@
 
     window.addEventListener('keydown', function(event) {
       // cmd + m toggles text area
-      console.log('keydown: ' + event.keyCode);
-      console.log(event);
+      // console.log('keydown: ' + event.keyCode);
+      // console.log(event);
       if (event.ctrlKey && event.keyCode === M_KEY_CODE || event.metaKey && event.keyCode === I_KEY_CODE) {
         if (textarea.style.display == 'none') {
           textarea.style.display = 'block';
